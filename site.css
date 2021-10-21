@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+
+  background-color: black;
+}
+
+
+
+
+
+.click-container {
+  
+  position: fixed;
+  margin-bottom: 100%;
+
+
+}
+
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
