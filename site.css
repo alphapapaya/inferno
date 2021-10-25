@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+
+  background-color: black;
+}
+
+
+
+
+
+.click-container {
+  height: 40%;
+  width: 40%;
+  position: absolute;
+  filter: blur(1px);
+  transition: transform 1.5s, filter 1.5s ease-in-out;
+  border: transparent;
+  filter: grayscale(100%) blur(35px);
+
+}
+
+.click-container:hover{
+
+
+
+    filter: grayscale(0);
+
+  }
+
+
+iframe {
+  width: 100%;
+  height: 100%;
+  transition: transform 1.5s, filter 1.5s ease-in-out;
+  border: transparent;
+  filter: grayscale(100%) blur(35px);
+
+}
+
+iframe:hover{
+
+
+
+    filter: grayscale(0);
+
+
+
+}
